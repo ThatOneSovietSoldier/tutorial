@@ -8,3 +8,6 @@ git config --global --list - globális beállítások ellenőrzése, listázása
 git remote -v - távoli repo címének lekérdezése
 git remote add origin https://github.com/ThatOneSovietSoldier/tutorial.git - távoli repo hozzáadása origin néven
 git remote remove origin - távoli repo törlése origin néven
+git add readme.md - változatások mentése (staging)
+git commit -m "first commit" - commit hozzáadása
+git branch -m main - az ág átnevezése mainre
